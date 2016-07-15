@@ -705,7 +705,8 @@ footer {
      margin:0 1% 25px;
    }
  }
-  .item-box > img {
+ /* ITEMS */
+.item-box > img {
    position:absolute;
    height:100%;
    width:auto;
@@ -737,7 +738,15 @@ footer {
    line-height: 18px;
    margin:5px 0 0;
  }
-
+/* ACTIVE SECTION */
+.items ul li .active {
+  background-color: #34495E;
+  padding:0.5em;
+  border: 2px #FFFFFF;
+}
+.items ul li a:hover:not(.active) {
+    background-color: #3498DB;
+}
 
 
 
