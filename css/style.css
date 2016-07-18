@@ -561,7 +561,7 @@ footer {
    text-align: center;
  }
  .left-nav .items {
-   padding:0 6%;
+   padding:0;
  }
  .left-nav .items p {
    font-weight: 600;
@@ -569,19 +569,22 @@ footer {
    font-size: 12px;
    color: #E2E2E2;
    line-height: 15px;
+   padding: 0 6%;
  }
  .left-nav .items ul {
    margin:0 0 40px;
-   padding:0;
+   padding: 0;
  }
  .left-nav .items ul li {
    list-style-type: none;
-   margin-bottom: 15px;
+   margin-bottom: 5px;
+   line-height: 29px;
  }
  .left-nav .items ul li a {
    color:#FFFFFF;
    text-decoration: none;
    font-weight: 100;
+   padding: 0 6%;
  }
  .left-nav .items ul li a i {
    width:16px;
@@ -741,11 +744,11 @@ footer {
 /*  ACTIVE SECTION  */
 .items ul li .active {
   background-color: #34495E;
-  padding:0.5em;
-  border: 2px #FFFFFF;
+  display: block;
 }
 .items ul li a:hover:not(.active) {
-    background-color: #3498DB;
+  background-color: #3498DB;
+  display: block;
 }
 
 
