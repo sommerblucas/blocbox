@@ -805,11 +805,11 @@ footer {
 /*  ACTIVE SECTION  */
 .items ul li .active {
   background-color: #34495E;
-  display: block;
+  display: inline-block;
 }
 .items ul li :hover:not(.active) {
   background-color: #3498DB;
-  display: block;
+  display: inline-block;
 }
 
 
