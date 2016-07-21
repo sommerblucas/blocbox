@@ -805,19 +805,27 @@ footer {
 /*  ACTIVE SECTION  */
 .items ul li .active {
   background-color: #34495E;
-  display: block;
+  display: inline-block;
 }
 .items ul li :hover:not(.active) {
   background-color: #3498DB;
-  display: block;
+  display: inline-block;
 }
 .items ul li a .active {
   background-color: #34495E;
-  display: block;
+  display: inline-block;
 }
 .items ul li a :hover:not(.active) {
   background-color: #3498DB;
-  display: block;
+  display: inline-block;
+}
+.items ul li a i .active {
+  background-color: #34495E;
+  display: inline-block;
+}
+.items ul li a i :hover:not(.active) {
+  background-color: #3498DB;
+  display: inline-block;
 }
 
 
