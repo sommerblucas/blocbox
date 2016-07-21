@@ -9,10 +9,10 @@
 
 /* These styles assume you are using ul and li */
 .dropit {
+    float: right;
     list-style: none;
 	padding: 0;
 	margin: 12px 0 0;
-    float: right;
     display: inline-block;
 }
 .dropit .dropit-trigger { position: relative; }
